@@ -138,6 +138,11 @@
   background: url(./resources/images/question.svg) center center / cover no-repeat;
   cursor: pointer;
   border: none;
+
+  body[dir="rtl"] & {
+    left: 0;
+    right: initial;
+  }
 }
 
 @mixin error-message {

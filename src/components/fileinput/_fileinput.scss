@@ -5,6 +5,7 @@
     @include secondary-button;
     pointer-events: all;
     margin: $space-xs 0;
+    width: inherit;
   }
 
   &__filelist {
