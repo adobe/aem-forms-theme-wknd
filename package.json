@@ -1,5 +1,5 @@
 {
-    "name": "aem-forms-wknd-theme",
+    "name": "@aemforms/af-wknd-theme",
     "version": "1.0.0",
     "description": "AEM Forms WKND theme",
     "license": "MIT License, Copyright 2022 Adobe Systems Incorporated",
@@ -27,6 +27,9 @@
         "postcss": "^8.3.11",
         "rimraf": "^3.0.2",
         "typescript": "^4.5.2"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "parcel-namer-rewrite": {
         "chain": "@parcel/namer-default",

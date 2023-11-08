@@ -1,12 +1,26 @@
-# af2-wknd-theme
+# AEM Forms WKND Theme
 
-This is the standard Wknd theme for Adobe Experience Manager (AEM) Forms.
+This is the standard WKND theme for Adobe Experience Manager (AEM) Forms.
 
 This theme can be modified to customize the visual appearance of Adaptive Form.
 
+## Usage
+
+If you're using CSS modules in JavaScript, you can install the NPM module:
+
+```
+npm install --save @aemforms/af-wknd-theme
+```
+
+Then just import the files as you would other CSS.
+
+```
+import '@aemforms/af-wknd-theme/dist/theme.css';
+```
+
 ## Structure
 
-* `src/main.ts`: This is the main entry point of your JS & CSS theme.
+* `src/theme.ts`: This is the main entry point of your JS & CSS theme.
 * `src/site`: Files that are generic to the entire site.
 * `src/components`: Files that are specific to components.
 * `src/resources`: Associated files, like icons, logos, fonts.
@@ -23,7 +37,17 @@ Initialize the project with following command executed at the theme root:
 
 ```
 npm install
+npm run build
 ```
+
+### Creating Clientlib for AEM 65
+In AEM 65, core-component themes are deployed as clientlibs. To create clientlib from theme:
+```
+npm run create-clientlib --category="adaptiveform.theme.yourtheme"
+```
+This takes to args 
+1. category [Required] : Clientlib category
+2. directory : Where should the clientlib be created
 
 ### Environment Variables
 
@@ -59,4 +83,4 @@ Contributions are welcomed! Read the [Contributing Guide](.github/CONTRIBUTING.m
 
 ## Licensing
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE.md) for more information.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
