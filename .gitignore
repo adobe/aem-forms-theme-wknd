@@ -6,6 +6,9 @@
 # make sure no .env file is present in the theme.zip file - AEM adds this file when downloading the theme
 .env
 
+### IntelliJ ###
+.idea/
+*.iml
 
 # Logs
 logs
@@ -111,3 +114,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Theme client libs generated output
+theme-clientlibs
