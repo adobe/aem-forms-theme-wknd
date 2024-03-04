@@ -4,9 +4,12 @@
     padding-top: $space-l;
     padding-bottom: $space-l;
     box-sizing: border-box;
-    max-width: 720px;
     width: 100%;
     padding: $space-s;
+    padding-inline: 20%;
+    @media(max-width: 768px) {
+      padding-inline: $space-s;
+    }
   }
 
   &--loading {
