@@ -18,12 +18,16 @@
 }
 
 .submit {
-  background-color: $white;
   position: sticky;
   bottom: 0;
   z-index: 12;
   width: calc(100% + 40px);
   & button {
-    margin-top: 0
+    margin-top: 0;
+    background: #161616;
+    color: white;
+    &:hover {
+      background-color: $gray;
+    }
   }
 }
