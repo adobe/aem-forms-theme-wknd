@@ -1,11 +1,9 @@
 .cmp-adaptiveform-pageheader {
   display: flex;
   align-items: center;
-  min-height: $space-l;
   width: 100%;
-  background: $primary;
   column-gap: $space-s;
-  padding: 24px;
+  padding: 10px 24px 0;
   color: $secondary;
   font-size: $font-m;
   word-break: break-all;
