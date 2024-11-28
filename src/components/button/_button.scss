@@ -31,3 +31,17 @@
     }
   }
 }
+
+
+.cmp-adaptiveform-wizard:has(.cmp-adaptiveform-wizard__nav--next[data-cmp-visible="false"]) .cmp-adaptiveform-wizard__containerNav {
+  right: 161px;
+}
+
+.cmp-adaptiveform-wizard__widget .cmp-adaptiveform-wizard__wizardpanel:last-child{
+  position: relative;
+}
+.cmp-adaptiveform-wizard .submit .cmp-adaptiveform-button{
+  position: absolute;
+  bottom: -138px;
+  right: -41px;
+} 
