@@ -5,6 +5,12 @@
     @include secondary-button;
     pointer-events: all;
     margin: $space-xs 0;
+
+    &:focus {
+      outline: none;
+      border-radius: 0.2rem;
+      border: 2px solid $gray; // Red-800 for testing
+    }
   }
 
   &__filelist {
