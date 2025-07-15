@@ -58,6 +58,7 @@
     appearance: none;
     margin: 0;
     border-radius: 1rem;
+    border: 1px solid $light-gray;
   }
 
   input[type='radio']:checked {
