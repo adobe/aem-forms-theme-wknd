@@ -5,6 +5,9 @@
     padding-bottom: $space-l;
     box-sizing: border-box;
     width: 100%;
+    label > p:first-child, span > p:first-child {
+      display: inline;
+    }
     padding: $space-s;
     padding-inline: 20%;
     @media(max-width: 768px) {
