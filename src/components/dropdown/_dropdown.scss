@@ -21,3 +21,9 @@ select::after {
 .cmp-adaptiveform-dropdown__widget[multiple='multiple'] {
   height: 80px;
 }
+
+.cmp-adaptiveform-dropdown__widget[multiple] {
+  height: auto;
+  field-sizing: content;
+  max-height: 80px;
+}
