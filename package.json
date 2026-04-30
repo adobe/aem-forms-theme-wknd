@@ -66,10 +66,10 @@
     },
     "overrides": {
         "browser-sync": {
-            "immutable": "3.8.3"
+            "immutable": "^3.8.3"
         },
         "sass": {
-            "immutable": "5.1.5"
+            "immutable": "^5.1.5"
         }
     }
 }
