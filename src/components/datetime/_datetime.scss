@@ -1,0 +1,7 @@
+.cmp-adaptiveform-datetime{
+  @include input;
+
+  &__widget {
+    width: 100%;
+  }
+}
